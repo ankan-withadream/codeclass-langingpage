@@ -1,0 +1,28 @@
+import React from 'react';
+import Header from './components/Header';
+import HeroSection from './components/HeroSection';
+import CourseSection from './components/CourseSection';
+import ValueProposition from './components/ValueProposition';
+import Testimonials from './components/Testimonials';
+import EnrollmentSection from './components/EnrollmentSection';
+import FAQSection from './components/FAQSection';
+import Footer from './components/Footer';
+
+function App() {
+  return (
+    <div className="font-inter text-gray-100 bg-primary-900">
+      <Header />
+      <main>
+        <HeroSection />
+        <CourseSection />
+        <ValueProposition />
+        <Testimonials />
+        <EnrollmentSection />
+        <FAQSection />
+      </main>
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
