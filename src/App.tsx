@@ -1,7 +1,7 @@
-import React from 'react';
 import Header from './components/Header';
 import HeroSection from './components/HeroSection';
 import CourseSection from './components/CourseSection';
+import SyllabusSection from './components/SyllabusSection';
 import ValueProposition from './components/ValueProposition';
 import Testimonials from './components/Testimonials';
 import EnrollmentSection from './components/EnrollmentSection';
@@ -15,6 +15,7 @@ function App() {
       <main>
         <HeroSection />
         <CourseSection />
+        <SyllabusSection />
         <ValueProposition />
         <Testimonials />
         <EnrollmentSection />

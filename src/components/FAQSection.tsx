@@ -4,7 +4,11 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 const faqs = [
   {
     question: 'What prerequisites do I need for the Python and Gen AI course?',
-    answer: 'No prior programming experience is required for our courses. We start from the basics and gradually move to advanced concepts. However, basic computer literacy and a willingness to learn are essential. For the AI modules, we\'ll ensure you have the necessary math foundations before diving into complex algorithms.'
+    answer: 'No prior programming experience is required for our comprehensive 21-module program. We start from the absolute basics and gradually progress to advanced concepts including AI and machine learning. However, basic computer literacy and a strong willingness to learn are essential.'
+  },
+  {
+    question: 'How long does the complete program take?',
+    answer: 'The complete program consists of 200 hours of instruction delivered over 100 live sessions. With our standard schedule of 3 sessions per week, the program typically takes about 8-10 months to complete, allowing for breaks and project work.'
   },
   {
     question: 'How are the live classes conducted?',
@@ -24,7 +28,7 @@ const faqs = [
   },
   {
     question: 'What kind of projects will I build during the course?',
-    answer: 'You\'ll work on both guided projects and a capstone project. These include building web applications, creating AI-powered tools, developing data analysis pipelines, and implementing machine learning models. All projects are designed to be portfolio-worthy and demonstrate your skills to potential employers.'
+    answer: 'You\'ll work on numerous hands-on projects throughout the 21 modules, including web applications with Django/Flask, AI-powered tools, data analysis projects, desktop applications, and two major capstone projects. All projects are designed to be portfolio-worthy and demonstrate real-world skills to potential employers.'
   }
 ];
 
@@ -59,9 +63,9 @@ const FAQSection: React.FC = () => {
               >
                 <h3 className="text-lg font-medium">{faq.question}</h3>
                 {openIndex === index ? (
-                  <ChevronUp className="h-5 w-5 text-blue-600" />
+                  <ChevronUp className="h-5 w-5 text-brand-secondary" />
                 ) : (
-                  <ChevronDown className="h-5 w-5 text-blue-600" />
+                  <ChevronDown className="h-5 w-5 text-brand-secondary" />
                 )}
               </button>
               
@@ -77,7 +81,7 @@ const FAQSection: React.FC = () => {
 
         <div className="text-center mt-12">
           <p className="text-gray-600 mb-4">Still have questions?</p>
-          <div className="inline-flex items-center justify-center bg-blue-50 px-6 py-3 rounded-full text-blue-700 font-medium">
+          <div className="inline-flex items-center justify-center bg-brand-primary bg-opacity-10 px-6 py-3 rounded-full text-brand-text font-medium">
             Email us at <a href="mailto:support@codeclass.com" className="ml-1 underline">support@codeclass.com</a>
           </div>
         </div>

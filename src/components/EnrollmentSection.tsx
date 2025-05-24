@@ -164,7 +164,7 @@ const EnrollmentSection: React.FC = () => {
                     </div>
                     <div>
                       <span className="font-medium">Pay as you go</span>
-                      <p className="text-sm text-gray-600">₹100 per session, paid weekly</p>
+                      <p className="text-sm text-gray-600">₹100 per session, flexible payment</p>
                     </div>
                   </li>
                   <li className="flex items-start">
@@ -173,7 +173,7 @@ const EnrollmentSection: React.FC = () => {
                     </div>
                     <div>
                       <span className="font-medium">Monthly package</span>
-                      <p className="text-sm text-gray-600">₹1,100 per month (10% discount)</p>
+                      <p className="text-sm text-gray-600">₹2,200 per month (12 sessions)</p>
                     </div>
                   </li>
                   <li className="flex items-start">
@@ -181,8 +181,8 @@ const EnrollmentSection: React.FC = () => {
                       <div className="h-2 w-2 bg-blue-600 rounded-full"></div>
                     </div>
                     <div>
-                      <span className="font-medium">Full course payment</span>
-                      <p className="text-sm text-gray-600">₹3,000 for 12 weeks (20% discount)</p>
+                      <span className="font-medium">Complete program</span>
+                      <p className="text-sm text-gray-600">₹15,000 for full 200-hour course (25% discount)</p>
                     </div>
                   </li>
                 </ul>

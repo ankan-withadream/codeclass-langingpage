@@ -9,10 +9,10 @@ const HeroSection: React.FC = () => {
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 animate-fadeIn">
-              Master Coding with <span className="text-orange-400">Live Interactive</span> Classes
+              Master <span className="text-brand-primary">Python & AI</span> with Live Interactive Classes
             </h1>
             <p className="text-xl mb-8 text-blue-100 max-w-lg">
-              Join the premier online tech learning platform and transform your career with expert-led, interactive coding courses.
+              Join our comprehensive 200-hour program and transform your career with expert-led Python programming and cutting-edge AI development.
             </p>
             <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
               <Button href="#enroll" variant="accent" size="large">
@@ -35,6 +35,7 @@ const HeroSection: React.FC = () => {
               </div>
               <div className="ml-4">
                 <p className="text-blue-100">Joined by <span className="font-bold text-white">2,000+</span> students</p>
+                <p className="text-sm text-blue-200">Learning Python & AI skills</p>
               </div>
             </div>
           </div>
@@ -44,8 +45,8 @@ const HeroSection: React.FC = () => {
               alt="Student learning to code" 
               className="rounded-lg shadow-2xl md:scale-110"
             />
-            <div className="absolute top-4 right-4 bg-orange-500 text-white py-2 px-4 rounded-full text-sm font-medium">
-              Live Classes
+            <div className="absolute top-4 right-4 bg-brand-primary text-white py-2 px-4 rounded-full text-sm font-medium">
+              200 Hours Program
             </div>
           </div>
         </div>

@@ -31,15 +31,20 @@ const Header: React.FC = () => {
     >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center">
-          <div className="flex items-center space-x-2">
-            <Code className="h-8 w-8 text-accent-500" />
-            <span className="text-2xl font-bold text-white">CodeClass</span>
+          <div className="flex items-center space-x-3">
+            <img 
+              src="/codeclass-logo.png" 
+              alt="Code Class Logo" 
+              className="h-10 w-auto"
+            />
+            <span className="text-2xl font-bold text-white">Code Class</span>
           </div>
           
           <div className="hidden lg:flex items-center space-x-8">
             <nav>
               <ul className="flex space-x-8">
                 <li><a href="#courses" className="font-medium text-gray-200 hover:text-accent-500 transition-colors">Courses</a></li>
+                <li><a href="#syllabus" className="font-medium text-gray-200 hover:text-accent-500 transition-colors">Syllabus</a></li>
                 <li><a href="#benefits" className="font-medium text-gray-200 hover:text-accent-500 transition-colors">Benefits</a></li>
                 <li><a href="#testimonials" className="font-medium text-gray-200 hover:text-accent-500 transition-colors">Testimonials</a></li>
                 <li><a href="#faq" className="font-medium text-gray-200 hover:text-accent-500 transition-colors">FAQ</a></li>
@@ -70,6 +75,15 @@ const Header: React.FC = () => {
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Courses
+                </a>
+              </li>
+              <li>
+                <a 
+                  href="#syllabus" 
+                  className="block py-2 font-medium text-gray-200 hover:text-accent-500 transition-colors"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Syllabus
                 </a>
               </li>
               <li>

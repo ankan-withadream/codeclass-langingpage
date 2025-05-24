@@ -7,9 +7,13 @@ const Footer: React.FC = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           <div>
-            <div className="flex items-center space-x-2 mb-6">
-              <Code className="h-8 w-8 text-orange-400" />
-              <span className="text-2xl font-bold">CodeClass</span>
+            <div className="flex items-center space-x-3 mb-6">
+              <img 
+                src="/codeclass-logo.png" 
+                alt="Code Class Logo" 
+                className="h-8 w-auto"
+              />
+              <span className="text-2xl font-bold">Code Class</span>
             </div>
             <p className="text-blue-200 mb-6">
               Transforming careers through interactive online tech education. Join thousands of successful students on their journey to tech excellence.
@@ -35,6 +39,9 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li>
                 <a href="#courses" className="text-blue-200 hover:text-white transition-colors">Courses</a>
+              </li>
+              <li>
+                <a href="#syllabus" className="text-blue-200 hover:text-white transition-colors">Syllabus</a>
               </li>
               <li>
                 <a href="#benefits" className="text-blue-200 hover:text-white transition-colors">Why Choose Us</a>
@@ -97,7 +104,7 @@ const Footer: React.FC = () => {
                 />
                 <button 
                   type="submit" 
-                  className="bg-orange-500 hover:bg-orange-600 px-4 py-2 rounded-r-lg font-medium transition-colors"
+                  className="bg-brand-primary hover:bg-brand-secondary px-4 py-2 rounded-r-lg font-medium transition-colors"
                 >
                   Subscribe
                 </button>

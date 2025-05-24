@@ -26,30 +26,33 @@ const CourseSection: React.FC = () => {
                   Most Popular
                 </div>
                 <h3 className="text-3xl font-bold text-white mb-2">
-                  Software Engineering with Python and Gen AI
+                  Complete Software Engineering with Python & Gen AI
                 </h3>
                 <div className="flex flex-wrap gap-3 mb-4">
                   <span className="bg-blue-800 bg-opacity-70 text-white text-sm px-3 py-1 rounded-full">
-                    Python
+                    Python Programming
                   </span>
                   <span className="bg-blue-800 bg-opacity-70 text-white text-sm px-3 py-1 rounded-full">
-                    AI/ML
+                    Generative AI
                   </span>
                   <span className="bg-blue-800 bg-opacity-70 text-white text-sm px-3 py-1 rounded-full">
-                    Web Development
+                    Full-Stack Development
                   </span>
                   <span className="bg-blue-800 bg-opacity-70 text-white text-sm px-3 py-1 rounded-full">
-                    Data Structures
+                    Data Science
+                  </span>
+                  <span className="bg-blue-800 bg-opacity-70 text-white text-sm px-3 py-1 rounded-full">
+                    Machine Learning
                   </span>
                 </div>
                 <div className="flex flex-wrap gap-4 text-white">
                   <div className="flex items-center">
                     <Clock className="h-4 w-4 mr-2" />
-                    <span>12 Weeks</span>
+                    <span>200 Hours</span>
                   </div>
                   <div className="flex items-center">
                     <Calendar className="h-4 w-4 mr-2" />
-                    <span>3 Sessions/Week</span>
+                    <span>100 Live Sessions</span>
                   </div>
                   <div className="flex items-center">
                     <Star className="h-4 w-4 mr-2" />
@@ -57,7 +60,7 @@ const CourseSection: React.FC = () => {
                   </div>
                   <div className="flex items-center">
                     <Users className="h-4 w-4 mr-2" />
-                    <span>Limited to 25 Students</span>
+                    <span>21 Comprehensive Modules</span>
                   </div>
                 </div>
               </div>
@@ -75,29 +78,36 @@ const CourseSection: React.FC = () => {
                   <li className="flex items-start">
                     <Code className="h-5 w-5 text-blue-600 mr-3 mt-1" />
                     <div>
-                      <span className="font-medium">Python Fundamentals to Advanced</span>
-                      <p className="text-sm text-gray-600">Master Python programming from basics to building complex applications</p>
+                      <span className="font-medium">Complete Python Mastery</span>
+                      <p className="text-sm text-gray-600">From basics to advanced programming, including OOP, algorithms, and best practices</p>
                     </div>
                   </li>
                   <li className="flex items-start">
                     <BrainCircuit className="h-5 w-5 text-blue-600 mr-3 mt-1" />
                     <div>
-                      <span className="font-medium">Generative AI Applications</span>
-                      <p className="text-sm text-gray-600">Build AI-powered applications using modern frameworks and tools</p>
+                      <span className="font-medium">Generative AI & Machine Learning</span>
+                      <p className="text-sm text-gray-600">Build AI-powered applications, work with LLMs, and implement ML solutions</p>
                     </div>
                   </li>
                   <li className="flex items-start">
                     <PanelRight className="h-5 w-5 text-blue-600 mr-3 mt-1" />
                     <div>
                       <span className="font-medium">Full-Stack Web Development</span>
-                      <p className="text-sm text-gray-600">Create responsive websites with modern JavaScript frameworks</p>
+                      <p className="text-sm text-gray-600">Master Django, Flask, FastAPI, and modern web technologies</p>
                     </div>
                   </li>
                   <li className="flex items-start">
                     <BookOpen className="h-5 w-5 text-blue-600 mr-3 mt-1" />
                     <div>
-                      <span className="font-medium">Data Structures & Algorithms</span>
-                      <p className="text-sm text-gray-600">Essential computer science concepts for technical interviews</p>
+                      <span className="font-medium">Data Science & Analytics</span>
+                      <p className="text-sm text-gray-600">Work with NumPy, Pandas, and visualization tools for data-driven insights</p>
+                    </div>
+                  </li>
+                  <li className="flex items-start">
+                    <Code className="h-5 w-5 text-blue-600 mr-3 mt-1" />
+                    <div>
+                      <span className="font-medium">Real-World Projects</span>
+                      <p className="text-sm text-gray-600">Build portfolio-worthy applications including AI-powered solutions</p>
                     </div>
                   </li>
                 </ul>
@@ -108,11 +118,11 @@ const CourseSection: React.FC = () => {
                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-3 mb-6">
                   <li className="flex items-center text-sm">
                     <div className="h-2 w-2 rounded-full bg-blue-600 mr-2"></div>
-                    Build full-stack applications
+                    Build full-stack web applications
                   </li>
                   <li className="flex items-center text-sm">
                     <div className="h-2 w-2 rounded-full bg-blue-600 mr-2"></div>
-                    Implement AI/ML solutions
+                    Develop AI-powered solutions
                   </li>
                   <li className="flex items-center text-sm">
                     <div className="h-2 w-2 rounded-full bg-blue-600 mr-2"></div>
@@ -120,7 +130,15 @@ const CourseSection: React.FC = () => {
                   </li>
                   <li className="flex items-center text-sm">
                     <div className="h-2 w-2 rounded-full bg-blue-600 mr-2"></div>
-                    Create AI-powered apps
+                    Analyze data with ML
+                  </li>
+                  <li className="flex items-center text-sm">
+                    <div className="h-2 w-2 rounded-full bg-blue-600 mr-2"></div>
+                    Create desktop applications
+                  </li>
+                  <li className="flex items-center text-sm">
+                    <div className="h-2 w-2 rounded-full bg-blue-600 mr-2"></div>
+                    Deploy to production
                   </li>
                   <li className="flex items-center text-sm">
                     <div className="h-2 w-2 rounded-full bg-blue-600 mr-2"></div>
@@ -128,7 +146,7 @@ const CourseSection: React.FC = () => {
                   </li>
                   <li className="flex items-center text-sm">
                     <div className="h-2 w-2 rounded-full bg-blue-600 mr-2"></div>
-                    Deploy projects to production
+                    Work with databases
                   </li>
                 </ul>
                 <Button href="#enroll" variant="primary" fullWidth>

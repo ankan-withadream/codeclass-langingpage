@@ -64,7 +64,7 @@ const Testimonials: React.FC = () => {
             className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 md:-translate-x-12 bg-white rounded-full p-3 shadow-md z-10 hover:bg-gray-50 transition-colors"
             aria-label="Previous testimonial"
           >
-            <ChevronLeft className="h-6 w-6 text-blue-800" />
+            <ChevronLeft className="h-6 w-6 text-brand-secondary" />
           </button>
           
           <button 
@@ -72,7 +72,7 @@ const Testimonials: React.FC = () => {
             className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 md:translate-x-12 bg-white rounded-full p-3 shadow-md z-10 hover:bg-gray-50 transition-colors"
             aria-label="Next testimonial"
           >
-            <ChevronRight className="h-6 w-6 text-blue-800" />
+            <ChevronRight className="h-6 w-6 text-brand-secondary" />
           </button>
 
           {/* Testimonial carousel */}
@@ -124,7 +124,7 @@ const Testimonials: React.FC = () => {
                 key={index}
                 onClick={() => setCurrentIndex(index)}
                 className={`h-3 w-3 rounded-full transition-colors ${
-                  currentIndex === index ? 'bg-blue-600' : 'bg-gray-300'
+                  currentIndex === index ? 'bg-brand-secondary' : 'bg-gray-300'
                 }`}
                 aria-label={`Go to testimonial ${index + 1}`}
               />
