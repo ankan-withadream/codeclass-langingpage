@@ -4,7 +4,7 @@ import Button from './shared/Button';
 
 const HeroSection: React.FC = () => {
   return (
-    <section className="pt-28 pb-20 bg-gradient-to-r from-blue-900 to-blue-700 text-white">
+    <section className="pt-28 pb-20 bg-gradient-to-r from-primary-900 to-primary-700 text-white">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center">
           <div className="md:w-1/2 mb-10 md:mb-0">
