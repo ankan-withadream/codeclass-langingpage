@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <div className="font-inter text-gray-100 bg-primary-900">
+    <div className="font-inter text-gray-800 bg-primary-900">
       <Header />
       <main>
         <HeroSection />
